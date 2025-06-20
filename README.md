@@ -1,5 +1,6 @@
 # final_tensorf
-数据使用自己拍摄的水杯图片77张在my_object/images下，由colmap进行稀疏重建估计相机参数后，在LLFF中转换为llff数据集，测试集每8张留出1张。同[原版nerf](https://github.com/kwrous/final_nerf)
+数据使用自己拍摄的水杯图片77张在images下，由colmap进行稀疏重建估计相机参数后，在LLFF中转换为llff数据集，测试集每8张留出1张。同[原版nerf](https://github.com/kwrous/final_nerf)\
+images_4为使用四倍下采样脚本downsample_images.py生成\
 TensoRF实现\
 克隆https://github.com/apchenstu/TensoRF  并配置相应的环境\
 配置文件为my_object.txt将其放入configs下\
